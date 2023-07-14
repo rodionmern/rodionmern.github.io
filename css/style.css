@@ -34,22 +34,48 @@ body {
         flex-direction: row;
 
     }
+
+        #aboutme {
+
+            font-size: auto;
+
+        }
+
+        .arrow {
+
+            transform: rotate(-90deg);
+
+        }
         
         .projects {
 
-            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            height: min-content;
+
+            margin-top: 10px;
+            margin-bottom: 10px;
 
         }
 
         .information {
 
-            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            height: 100px;
+
+            margin-top: 10px;
+            margin-bottom: 10px;
 
         }
 
         .project {
 
-            height: 125px;
+            height: 110px;
 
         }
 
@@ -59,11 +85,33 @@ body {
 
         }
 
-    a {
+        a {
 
-        color: rgb(143, 143, 255);
+            color: rgb(143, 143, 255);
 
-    }
+        }
+
+.footer {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: 10px;
+
+}
+
+.header {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    margin: 10px;
+
+}
 
 @media (min-width: 500px) {
 
@@ -83,6 +131,31 @@ body {
 
 @media (max-width:499px) {
 
+    .info {
+
+        font-size: 17px;
+
+    }
+
+    .project {
+
+        height: 100px;
+        width: 200px;
+
+    }
+    
+    #aboutme {
+
+        font-size: 0px;
+
+    }
+
+    #projectsname {
+
+        font-size: 20px;
+
+    }
+
     .logotype-dekstop {
 
         font-size: 0px;
@@ -95,14 +168,50 @@ body {
 
     }
 
+    .footer {
+
+        font-size: 0px;
+
+    }
+
 }
 
-@media (max-width:1200px) {
+@media (max-width:1240px) {
 
-   .main {
+    .main {
 
-    flex-direction: column;
+        width: 100%;
 
-   }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+   #aboutme {
+
+    font-size: 0px;
+
+    }
+
+    #projectsname {
+
+        font-size: 0px;
+
+    }
+
+    .project {
+
+        height: 110px;
+        width: 220px;
+
+    }
+
+    .proj {
+
+        display: flex;
+
+    }
 
 }
