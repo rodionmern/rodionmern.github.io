@@ -7,63 +7,40 @@
 
 body {
 
-    background-color: #1b1a19;
-
-}
-
-.header {
-
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 
-    background-color: #141413;
-    color: whitesmoke;
+    flex-direction: column;
 
-    height: 50px;
     width: 100%;
+    height: 100vh;
+
+    background-color: #454245;
+    color: antiquewhite;
+
+    font-family: sans-serif;
 
 }
+
+@media (min-width: 500px) {
 
     .logotype-dekstop {
 
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
 
     }
 
     .logotype-mobile {
 
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 0px;
 
     }
 
-.footer {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-color: #141413;
-    color: whitesmoke;
-
-    height: 50px;
-    width: 100%;
-
 }
 
-.copyright-dekstop {
-
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-.copyright-mobile {
-
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-@media (max-width: 600px) {
+@media (max-width:499px) {
 
     .logotype-dekstop {
 
@@ -75,46 +52,6 @@ body {
 
         font-size: 40px;
 
-    }
-
-    .copyright-dekstop {
-
-        font-size: 0px;
-    
-    }
-    
-    .copyright-mobile {
-    
-        font-size: 30px;
-    
-    }
-
-}
-
-@media (min-width: 601px) {
-
-    .logotype-dekstop {
-
-        font-size: 30px;
-
-    }
-
-    .logotype-mobile {
-
-        font-size: 0px;
-
-    }
-
-    .copyright-dekstop {
-
-        font-size: 30px;
-    
-    }
-    
-    .copyright-mobile {
-    
-        font-size: 0px;
-    
     }
 
 }
