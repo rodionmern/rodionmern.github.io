@@ -24,6 +24,12 @@ body {
 
 }
 
+    a {
+
+        color: rgb(143, 143, 255);
+
+    }
+
 @media (min-width: 500px) {
 
     .logotype-dekstop {
