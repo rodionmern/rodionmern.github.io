@@ -110,3 +110,10 @@ p {
         transition: width 0.5s;
 
     }
+
+    #project {
+
+        width: 300px;
+        height: 150px;
+
+    }
