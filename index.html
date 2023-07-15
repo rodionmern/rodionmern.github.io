@@ -4,61 +4,64 @@
 
 <head>
 
+    <!-- back -->
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- titles -->
 
     <title>Smith Group</title>
+
+    <!-- css -->
+
+    <link rel="stylesheet" href="css/main.css"> <!-- максимально использую способ mobile to tablet to dekstop. -->
+    <link rel="stylesheet" href="css/media.css"> <!-- media`йка, медиа-запросы, адаптивный дизайн, называйте как хотите. -->
+
+    <!-- js -->
+
+    <script src=""></script>
 
 </head>
 
 <body>
-
-    <div class="header">
-
-        <h1 class="logotype-dekstop">SmithGroup</h1>
-
-        <h1 class="logotype-mobile">SG</h1>
-
-    </div>
-
-    <div class="main">
-
-        <div class="information">
-
-            <h2 id="aboutme" class="arrow">Об мне</h2>
-
-            <p class="info">
-
-                Хэй, я фронтенд-разработчик из <a href="https://ru.wikipedia.org/wiki/Москва">Москвы</a>,<br>
-                пишу на HTML и CSS, по-тихоньку учу JavaScript.<br>
-                Слушаю музыку, пишу код, пересматриваю «ЛвЧ».
-
-            </p>
-
-        </div>
-       
-        <div class="projects">
-
-            <h2 id="projectsname" class="arrow">Мои проекты</h2>
-
-            <div class="proj">
-
-                <a href="https://rodionsearch.github.io"><img src="images/four_reasons.png" alt="" class="project"></a>
-                <a href="https://rnonday.github.io"><img src="images/rnonday.png" alt="" class="project"></a>
-
-            </div>
-
-        </div>
-
-    </div>
     
-    <div class="footer">
+    <div class="first_section">
 
-        <h1 class="copyright">2023 (c) Smith Group</h1>
+        <h1>Привет</h1>
+        <p>
+             Я чуток <a>frontend-разработчик</a>,<br>
+             родился в Москве, люблю:<br>
+             - слушать музыку 🎧,<br>
+             - писать код ⌨️,<br>
+             - «ЛвЧ» 🤵🏾.
+        </p>
 
+        <a href="#projects" id="button">ПРОЕКТЫ</a>
+
+    </div>
+
+    <div class="second_section">
+
+        <h1>Кто такой?</h1>
+        <p>
+             Я програмист, впервые прикоснулся<br>
+             к html в 2020 году, посмотрев<br>
+             какой-то ролик про bootstrap,<br>
+             чуток пописал код, и ушёл:(<br>
+             в 2021 вместе с самоизоляцией<br>
+             начал изучать язык. Что-то писал,<br>
+             получалось (откровенно) так-себе<br>
+             в 2022 написал первый адекватный сайт<br>
+             ну и по текущий день пишу.<br>
+        </p>
+        
+    </div>
+
+    <div class="third_section">
+
+        <a name="projects"></a>
+        
     </div>
 
 </body>
