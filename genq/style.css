@@ -1,0 +1,129 @@
+* {
+
+    margin:0%;
+    padding: 0%;
+
+    font-family: sans-serif;
+
+}
+
+.header {
+
+    height: 10dvh;
+    width: 100dvw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    background-color: rgb(21, 21, 21);
+
+}
+
+.main {
+
+    height: 80dvh;
+    width: 100dvw;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+    .blocks {
+
+        height: 40dvh;
+        width: 100dvw;
+
+        display: flex;
+
+        flex-direction: row;
+
+    }
+
+    .percent20 {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        height: 40dvh;
+        width: 25dvw;
+
+        background-color: rgb(244, 244, 244);
+
+    }
+
+    .percent50 {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        height: 40dvh;
+        width: 50dvw;
+
+        color: white;
+        background-color: rgb(54, 54, 54);
+
+    }
+
+    .percent75 {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        height: 40dvh;
+        width: 75dvw;
+
+        color: white;
+        background-color: rgb(118, 118, 118);
+
+    }
+
+    .achievments {
+
+        display: flex;
+
+    }
+
+
+
+
+#margin-2 {
+
+    margin: 2px;
+
+}
+
+#margin-4 {
+
+    margin: 4px;
+
+}
+
+#margin-6 {
+
+    margin: 6px;
+
+}
+
+#margin-8 {
+
+    margin: 8px;
+
+}
+
+#margin-10 {
+
+    margin: 10px;
+
+}/*
