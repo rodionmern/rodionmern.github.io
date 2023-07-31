@@ -1,77 +1,50 @@
 @media screen and (max-width: 455px) {
 
+    .text-about {
+
+        font-size: 14px;
+
+    }
+
     .about {
-        
-        height: 35dvh;
-        width: 90dvw;
 
-        border-radius: 40px;
+        height: 200px;
 
     }
-    
+
     .projects {
-        
-        height: 35dvh;
-        width: 90dvw;
 
-        border-radius: 40px;
-
-    }
-
-    .projects-names {
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        height: 500px;
 
     }
 
     #project {
 
-        height: 75px;
-        width: 150px;
+        height: 90px;
+        width: 180px;
+
+    }
+
+    #desc-proj {
+
+        font-size: 0px;
 
     }
 
 }
+
 @media screen and (min-width: 456px) {
-
-    .about {
-        
-        height: 40dvh;
-        width: 90dvw;
-
-        border-radius: 40px;
-
-    }
-    
-    .projects {
-        
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-direction: column;
-
-        height: 30dvh;
-        width: 90dvw;
-
-        border-radius: 40px;
-
-    }
-
-    .projects-names {
-
-        display: flex;
-        align-items: center;
-        flex-direction: arrow;
-
-    }
 
     #project {
 
-        height: 100px;
-        width: 200px;
+        height: 125px;
+        width: 250px;
+
+    }
+
+    #desc-proj {
+
+        font-size: 0px;
 
     }
 
@@ -79,34 +52,17 @@
 
 @media (min-width: 800px) {
 
-    .about {
+    #project {
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
-        height: 40dvh;
-        width: 80dvw;
+        height: 150px;
+        width: 300px;
 
     }
 
-    .projects {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    #desc-proj {
 
-        height: 30dvh;
-        width: 80dvw;
+        font-size: 16px;
 
     }
-
-            #project {
-
-                height: 150px;
-                width: 300px;
-
-            }
 
 }
