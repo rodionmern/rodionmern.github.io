@@ -5,6 +5,12 @@
 
 }
 
+body {
+
+	background-color: #f5f3f3;
+
+}
+
 header {
 
 	display: flex;
