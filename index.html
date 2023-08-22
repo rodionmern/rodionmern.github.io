@@ -25,9 +25,38 @@
 		LNT
 	</title>
 
+	<script>
+		window.onload = function () {
+			document.body.classList.add('loaded');
+		}
+	</script>
+
+	<script>
+  window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 500);
+  }
+	</script>
+
 </head>
 
 <body>
+
+	<!-- <div class="loading">
+
+		<img src="images/favicon.png" alt="" class="loading-img">
+
+	</div> -->
+
+	<div class="preloader">
+		<div class="preloader__row">
+			<img src="images/favicon.png" alt="" class="loading-img">
+			<p id="loading-txt">LON!ONE</p>
+		</div>
+	</div>
 	
 	<header>
 

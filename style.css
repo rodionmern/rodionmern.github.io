@@ -12,6 +12,13 @@ body {
 
 }
 
+	/* .loading-img {
+
+		height: 0px;
+		width: 0px;
+
+	} */
+
 header {
 
 	display: flex;
@@ -105,4 +112,55 @@ footer {
 		color: #1900ff;
 		transition: color 1s;
 
+	}
+
+	.preloader {
+		/*фиксированное позиционирование*/
+		position: fixed;
+		/* координаты положения */
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		/* фоновый цвет элемента */
+		background: #e0e0e0;
+		/* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+		z-index: 1001;
+	}
+	
+	.preloader__row {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+
+		position: relative;
+		top: 50%;
+		left: 50%;
+		width: 70px;
+		height: 70px;
+		margin-top: -35px;
+		margin-left: -35px;
+		text-align: center;
+		animation: preloader-rotate 2s infinite linear;
+	}
+	
+	.loading-img {
+		width: 200px;
+		height: 200px;
+	}
+	
+	.preloader__item:last-child {
+		top: auto;
+		bottom: 0;
+		animation-delay: -1s;
+	}
+
+	.loaded_hiding .preloader {
+		transition: 1s opacity;
+		opacity: 0;
+	}
+	
+	.loaded .preloader {
+		display: none;
 	}
