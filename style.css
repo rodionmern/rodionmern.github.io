@@ -28,6 +28,21 @@ header {
 		width: 200px;
 		height: 200px;
 
+		margin: 10px;
+
+		transition: width 0.1s;
+
+	}
+
+	#logo:hover {
+
+		width: 220px;
+		height: 220px;
+
+		margin: 0px;
+
+		transition: width 0.1s;
+
 	}
 
 	.social {
@@ -53,9 +68,6 @@ header {
 		}
 
 		.social-icon:hover {
-
-			width: 51px;
-			height: 51px;
 
 			padding: 2px;
 
