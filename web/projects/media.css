@@ -1,0 +1,68 @@
+@media screen and (max-width: 455px) {
+
+    .text-about {
+
+        font-size: 14px;
+
+    }
+
+    .about {
+
+        height: 200px;
+
+    }
+
+    .projects {
+
+        height: 500px;
+
+    }
+
+    #project {
+
+        height: 90px;
+        width: 180px;
+
+    }
+
+    #desc-proj {
+
+        font-size: 0px;
+
+    }
+
+}
+
+@media screen and (min-width: 456px) {
+
+    #project {
+
+        height: 125px;
+        width: 250px;
+
+    }
+
+    #desc-proj {
+
+        font-size: 0px;
+
+    }
+
+}
+
+@media (min-width: 800px) {
+
+    #project {
+
+        height: 150px;
+        width: 300px;
+
+    }
+
+    #desc-proj {
+
+        font-size: 16px;
+
+    }
+
+}
