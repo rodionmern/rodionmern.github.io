@@ -48,7 +48,7 @@ header {
 
 			padding: 2px;
 
-			transition: transform 0.1s;
+			transition: transform 0.10s;
 
 		}
 
@@ -60,7 +60,7 @@ header {
 			padding: 2px;
 
 			transform: rotate(-20deg);
-			transition: transform 0.1s;
+			transition: transform 0.10s;
 
 		}
 
