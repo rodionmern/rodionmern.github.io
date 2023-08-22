@@ -48,6 +48,20 @@ header {
 
 			padding: 2px;
 
+			transition: transform 0.1s;
+
+		}
+
+		.social-icon:hover {
+
+			width: 51px;
+			height: 51px;
+
+			padding: 2px;
+
+			transform: rotate(-20deg);
+			transition: transform 0.1s;
+
 		}
 
 footer {
