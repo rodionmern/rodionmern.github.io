@@ -63,7 +63,7 @@ header {
 
 	}
 
-		.social-icon {
+		.social__icon {
 
 			width: 50px;
 			height: 50px;
@@ -74,7 +74,7 @@ header {
 
 		}
 
-		.social-icon:hover {
+		.social-__icon:hover {
 
 			padding: 2px;
 
@@ -110,7 +110,7 @@ main {
 
 	}
 
-		.article-title {
+		.article__title {
 
 			position: absolute;
 			bottom: 230px;
@@ -123,7 +123,7 @@ main {
 
 		}
 
-		.article-title:hover {
+		.article__title:hover {
 
 			background-color: #d5e8d5;
 
