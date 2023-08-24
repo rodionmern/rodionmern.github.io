@@ -1,2 +1,5 @@
-# http://valueiszero.github.io
-My web-site.
+# About:
+
+This is my website where I show what I have learned (probably)
+
+If you want to visit the site, here is the link: http://valueiszero.github.io
