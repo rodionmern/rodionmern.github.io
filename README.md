@@ -1,2 +1,3 @@
 # http://valueiszero.github.io
-My web-site.
+
+This is my website where I show what I have learned (probably)
