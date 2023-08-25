@@ -37,7 +37,7 @@
 	}
 	
 	body {
-	
+
 		background-color: #f5f3f3;
 		font-family: 'Roboto', sans-serif;
 	
@@ -75,6 +75,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		flex-direction: column;
 	
 	}
 	
@@ -89,7 +90,7 @@
 			justify-content: center;
 	
 			width: 600px;
-			height: 800px;
+			height: 450px;
 	
 			background-color: #e8e8e8;
 			border-radius: 10px;
@@ -97,7 +98,7 @@
 		}
 	
 			 .article__info {
-	
+
 				width: 300px;
 
 				text-align: center;
@@ -129,6 +130,12 @@
 	
 			}
 
+			.article__text {
+
+				bottom: 1px;
+
+			}
+
 		a {
 	
 			color: #0084ff;
@@ -143,7 +150,27 @@
 			transition: color 1s;
 	
 		}
-	</style>
+
+		.article__text-area {
+
+			display: flex;
+			text-align: center;
+			align-items: center;
+			flex-direction: column;
+			justify-content: center;
+
+			width: 600px;
+			height: 150px;
+
+			border-radius: 10px;
+
+			margin: 20px;
+
+			background-color: #e8e8e8;
+
+		}
+
+</style>
 
 </head>
 
@@ -165,6 +192,12 @@
 			</div>
 
 		</article>
+
+		<div class="article__text-area">
+
+			<p class="article__textarea">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur numquam repudiandae maiores tempore corrupti, iure accusamus esse veritatis, maxime, officiis explicabo quibusdam iste dolores error et consequatur laudantium ipsa deserunt.</p>
+
+		</div>
 
 	</div>
 
