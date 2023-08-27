@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+header {
+
+	display: flex;
+	justify-content: center;
+
+	height: 100px;
+	width: 100%;
+
+}
+
+	.header__logotype {
+
+		height: 100px;
+		width: 100px;
+
+	}
+
+footer {
+
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+
+}
+
+	.footer__title {
+
+		color: #202022;
+
+	}
+
+	.footer__link {
+
+		color: blue;
+		text-decoration: none;
+	}
+
+	.footer__link:hover {
+
+		color: blue;
+		text-decoration: underline;
+
+	}
