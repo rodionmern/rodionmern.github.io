@@ -12,8 +12,9 @@ header {
 
 	display: flex;
 	justify-content: center;
+	align-items: center;
 
-	height: 100px;
+	height: 125px;
 	width: 100%;
 
 }
@@ -25,10 +26,27 @@ header {
 
 	}
 
-footer {
+.about {
 
 	text-align: center;
+
 	font-family: 'Jost', sans-serif;
+
+	font-size: 18px;
+
+}
+
+footer {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	font-family: 'Jost', sans-serif;
+
+	height: 75px;
+	width: 100%;
 
 }
 
