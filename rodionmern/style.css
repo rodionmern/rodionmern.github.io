@@ -28,13 +28,41 @@ header {
 
 .about {
 
+	display: flex;
 	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 
 	font-family: 'Jost', sans-serif;
 
 	font-size: 18px;
 
 }
+
+	.articles {
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		width: 250px;
+		height: 150px;
+
+	}
+
+		article {
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			text-align: center;
+
+			width: 100px;
+			height: 50px;
+
+		}
 
 footer {
 
