@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+
+	margin: 0%;
+	padding: 0%;
+
+}
+
+body {
+
+	background-color: #222222;
+	height: 100vh;
+	width: 100vw;
+
+}
+
+.main-box {
+
+	height: 100vh;
+	width: 100vw;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	flex-direction: column;
+
+}
+
+	.head-box {
+
+		height: 100px;
+		width: 80vw;
+
+		border-radius: 10px;
+
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		text-align: left;
+
+		margin-bottom: 5px;
+
+		background-color: #141415;
+
+	}
+
+		h1,a {
+
+			color: #fefefe;
+
+			padding-left: 10px;
+			font-family: 'Montserrat', sans-serif;
+			
+			/* text-decoration: none; */
+		
+		}
+	
+	.foot-box {
+
+		height: 150px;
+		width: 80vw;
+
+		border-radius: 10px;
+
+		display: flex;
+		justify-content: left;
+		align-items: start;
+		text-align: left;
+
+		flex-direction: column;
+
+		margin-top: 5px;
+
+		background-color: #141415;
+
+	}
+
+		#about {
+
+			color: #fefefe;
+
+			padding: 20px;
+			font-family: 'Roboto Condensed', sans-serif;
+			
+			/* text-decoration: none; */
+		
+		}
+
+		.blocks {
+
+			display: flex;
+
+		}
+
+		.dev-block {
+
+			margin-left: 20px;
+
+		}
+
+			#dev {
+
+				color: #fefefe;
+
+				font-family: 'Roboto Condensed', sans-serif;
+				
+				/* text-decoration: none; */
+
+			}
+
+			ul {
+
+				color: #fefefe;
+				font-family: 'Roboto Condensed', sans-serif;
+				
+				list-style-type: none;
+
+			}
+
+		.music-block {
+
+			margin-left: 20px;
+
+		}
+
+			#music {
+
+				color: #fefefe;
+
+				font-family: 'Roboto Condensed', sans-serif;
+				
+				/* text-decoration: none; */
+
+			}
+
+			ul {
+
+				color: #fefefe;
+				font-family: 'Roboto Condensed', sans-serif;
+				
+				list-style-type: none;
+
+			}
