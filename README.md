@@ -1,4 +1,4 @@
-# About:
+# About site:
 
 This is my website where I show what I have learned (probably) 😎
 
