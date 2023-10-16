@@ -56,9 +56,9 @@ body {
 		
 		}
 	
-	.middle-box {
+	.foot-box {
 
-		height: 150px;
+		height: auto;
 		width: 80vw;
 
 		border-radius: 10px;
@@ -87,88 +87,71 @@ body {
 		
 		}
 
-		.blocks {
+		.dev-block {
 
-			display: flex;
+			margin: 20px;
 
 		}
 
-			.dev-block {
+			#dev {
 
-				margin-left: 20px;
+				color: #fefefe;
 
-			}
-
-				#dev {
-
-					color: #fefefe;
-
-					font-family: 'Roboto Condensed', sans-serif;
-					
-					/* text-decoration: none; */
-
-				}
-
-					ul {
-
-						color: #fefefe;
-						font-family: 'Roboto Condensed', sans-serif;
-						
-						list-style-type: none;
-
-					}
-
-			.music-block {
-
-				margin-left: 20px;
+				font-family: 'Roboto Condensed', sans-serif;
+				
+				/* text-decoration: none; */
 
 			}
 
-				#music {
+			ul {
 
-					color: #fefefe;
+				color: #fefefe;
+				font-family: 'Roboto Condensed', sans-serif;
+				
+				list-style-type: none;
 
-					font-family: 'Roboto Condensed', sans-serif;
-					
-					/* text-decoration: none; */
+			}
 
-				}
+		.music-block {
 
-					ul {
+			margin-left: 20px;
 
-						color: #fefefe;
-						font-family: 'Roboto Condensed', sans-serif;
-						
-						list-style-type: none;
+		}
 
-					}
+			#music {
 
-	.foot-box {
+				color: #fefefe;
 
-		height: 50px;
-		width: 80vw;
+				font-family: 'Roboto Condensed', sans-serif;
+				
+				/* text-decoration: none; */
 
-		border-radius: 10px;
+			}
 
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
+			ul {
 
-		margin-top: 5px;
+				color: #fefefe;
+				font-family: 'Roboto Condensed', sans-serif;
+				
+				list-style-type: none;
 
-		background-color: #141415;
+			}
 
-	}
+		.footer {
 
-		.copyright {
+			height: auto;
+			width: 80vw;
 
-			color: #fefefe;
+			border-radius: 10px;
 
-			font-family: 'Roboto Condensed', sans-serif;
-			text-decoration: none;
-			
-			/* text-decoration: none; */
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+
+			margin-top: 5px;
+
+			background-color: #141415;
 
 		}
 
@@ -179,6 +162,17 @@ body {
 				font-family: 'Roboto Condensed', sans-serif;
 				text-decoration: none;
 
+				/* text-decoration: none; */
+
+			}
+
+			.copyright {
+
+				color: #fefefe;
+
+				font-family: 'Roboto Condensed', sans-serif;
+				text-decoration: none;
+				
 				/* text-decoration: none; */
 
 			}

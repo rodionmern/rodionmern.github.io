@@ -45,7 +45,7 @@ body {
 
 	}
 
-		h1,a {
+		.title,.link-title {
 
 			color: #fefefe;
 
@@ -56,9 +56,9 @@ body {
 		
 		}
 	
-	.middle-box {
+	.foot-box {
 
-		height: 150px;
+		height: auto;
 		width: 80vw;
 
 		border-radius: 10px;
@@ -76,6 +76,53 @@ body {
 
 	}
 
+		.article {
+			
+			margin: 10px;
+
+		}
+
+			.opinion {
+
+				color: #fefefe;
+
+				font-family: 'Roboto Condensed', sans-serif;
+
+				text-decoration: none;
+				cursor:text;
+				
+				/* text-decoration: none; */
+
+			}
+	
+			a {
+
+				color: #fefefe;
+
+				font-family: 'Roboto Condensed', sans-serif;
+
+				text-decoration: none;
+				cursor:pointer;
+
+			}
+
+			.time {
+
+				color: #fefefe;
+
+				font-family: 'Roboto Condensed', sans-serif;
+
+				text-decoration: none;
+				cursor: default;
+
+			}
+
+			.--- {
+
+				color: transparent;
+
+			}
+
 		#about {
 
 			color: #fefefe;
@@ -92,96 +139,6 @@ body {
 			display: flex;
 
 		}
-
-			.dev-block {
-
-				margin-left: 20px;
-
-			}
-
-				#dev {
-
-					color: #fefefe;
-
-					font-family: 'Roboto Condensed', sans-serif;
-					
-					/* text-decoration: none; */
-
-				}
-
-					ul {
-
-						color: #fefefe;
-						font-family: 'Roboto Condensed', sans-serif;
-						
-						list-style-type: none;
-
-					}
-
-			.music-block {
-
-				margin-left: 20px;
-
-			}
-
-				#music {
-
-					color: #fefefe;
-
-					font-family: 'Roboto Condensed', sans-serif;
-					
-					/* text-decoration: none; */
-
-				}
-
-					ul {
-
-						color: #fefefe;
-						font-family: 'Roboto Condensed', sans-serif;
-						
-						list-style-type: none;
-
-					}
-
-	.foot-box {
-
-		height: 50px;
-		width: 80vw;
-
-		border-radius: 10px;
-
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-
-		margin-top: 5px;
-
-		background-color: #141415;
-
-	}
-
-		.copyright {
-
-			color: #fefefe;
-
-			font-family: 'Roboto Condensed', sans-serif;
-			text-decoration: none;
-			
-			/* text-decoration: none; */
-
-		}
-
-			#article-link {
-
-				color: #fefefe;
-
-				font-family: 'Roboto Condensed', sans-serif;
-				text-decoration: none;
-
-				/* text-decoration: none; */
-
-			}
 
 @media screen and (max-width: 800px) {
 	
@@ -201,7 +158,7 @@ body {
 
 @media (max-width: 354px) {
 
-	h1,a {
+	.title,.link-title {
 
 		text-align: center;
 		font-size: 30px;
