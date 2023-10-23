@@ -1,7 +1,7 @@
-/* fonts zone, — connect roboto: normal&mono, montserrat */
+/* fonts zone, — connect roboto: normal&mono, ubuntu, montserrat */
 
 	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
-	@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 	@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 /* body zone, — set height, width, margin */
@@ -89,7 +89,7 @@
 
 				.text-about {
 
-					font-family: 'Roboto', sans-serif;
+					font-family: 'Ubuntu', sans-serif;
 					/* font-family: 'Roboto Mono', monospace; */
 
 				}
@@ -115,7 +115,7 @@
 
 					.tables__title {
 
-						font-family: 'Roboto', sans-serif;
+						font-family: 'Ubuntu', sans-serif;
 
 					}
 
@@ -142,7 +142,7 @@
 			background-color: #141415;
 			border-radius: 10px;
 
-			font-family: 'Roboto', sans-serif;
+			font-family: 'Ubuntu', sans-serif;
 
 		}
 
