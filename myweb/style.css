@@ -1,153 +1,161 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+/* fonts zone, — connect roboto: normal&mono, montserrat */
 
-* {
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
-	margin: 0%;
+/* body zone, — set height, width, margin */
 
-}
+	* {
 
-body {
+		margin: 0%;
 
-	height: 100vh;
-	width: 100vw;
+	}
 
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	body {
 
-	background-color: #222222;
-	color: #fff;
-
-}
-
-.container {
-
-	width: 80vw;
-
-}
-
-	.header {
-
-		height: 75px;
+		height: 100vh;
+		width: 100vw;
 
 		display: flex;
 		justify-content: center;
 		align-items: center;
 
-		background-color: #141415;
-		border-radius: 10px;
+		background-color: #222222;
+		color: #fff;
 
 	}
 
-		.title {
+/* blocks zone, — header, main, footer and other */
 
-			font-family: 'Montserrat', sans-serif;
+	.container {
 
-			text-decoration: underline;
-
-		}
-
-		a {
-
-			color: #fff;
-
-		}
-
-	.main {
-
-		display: flex;
-		justify-content: center;
-		align-items: left;
-		text-align: left;
-
-		flex-direction: column;
-
-		height: auto;
-
-		background-color: #141415;
-		border-radius: 15px;
+		width: 80vw;
 
 	}
 
+		.header {
 
-		.about {
-
-			margin-top: 20px;
-			margin-left: 20px;
-			margin-right: 20px;
-			margin-bottom: 10px;
-
-		}
-
-			.text-about {
-
-				font-family: 'Roboto', sans-serif;
-				/* font-family: 'Roboto Mono', monospace; */
-
-			}
-
-		.tables {
+			height: 75px;
 
 			display: flex;
-			flex-direction: row;
+			justify-content: center;
+			align-items: center;
 
-			font-family: 'Roboto', sans-serif;
-			font-family: 'Roboto Mono', monospace;
+			background-color: #141415;
+			border-radius: 10px;
 
 		}
 
-			.table {
+			.title {
 
-				margin-top: 10px;
+				font-family: 'Montserrat', sans-serif;
+
+				text-decoration: underline;
+
+			}
+
+			a {
+
+				color: #fff;
+
+			}
+
+		.main {
+
+			display: flex;
+			justify-content: center;
+			align-items: left;
+			text-align: left;
+
+			flex-direction: column;
+
+			height: auto;
+
+			background-color: #141415;
+			border-radius: 15px;
+
+		}
+
+
+			.about {
+
+				margin-top: 20px;
 				margin-left: 20px;
 				margin-right: 20px;
-				margin-bottom: 20px;
+				margin-bottom: 10px;
 
 			}
 
-				.tables__title {
+				.text-about {
 
 					font-family: 'Roboto', sans-serif;
+					/* font-family: 'Roboto Mono', monospace; */
 
 				}
 
-			ul {
+			.tables {
 
-				list-style-type:square;
+				display: flex;
+				flex-direction: row;
+
+				font-family: 'Roboto', sans-serif;
+				font-family: 'Roboto Mono', monospace;
 
 			}
 
-				li {
+				.table {
 
-					font-size: 15px;
+					margin-top: 10px;
+					margin-left: 20px;
+					margin-right: 20px;
+					margin-bottom: 20px;
 
 				}
 
-	.footer {
+					.tables__title {
 
-		height: 50px;
+						font-family: 'Roboto', sans-serif;
 
-		display: flex;
-		justify-content: center;
-		align-items: center;
+					}
 
-		background-color: #141415;
-		border-radius: 10px;
+				ul {
 
-		font-family: 'Roboto', sans-serif;
+					list-style-type:square;
 
-	}
+				}
 
-	.wrap {
+					li {
 
-		height: 15px;
+						font-size: 15px;
 
-	}
+					}
+
+		.footer {
+
+			height: 50px;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			background-color: #141415;
+			border-radius: 10px;
+
+			font-family: 'Roboto', sans-serif;
+
+		}
+
+		.wrap {
+
+			height: 15px;
+
+		}
+
+/* media zone, — mobile, tablet */
 
 	@media screen and (max-width: 800px) {
-	
+
 		ul {
 
 			padding-left: 14px;
@@ -161,15 +169,15 @@ body {
 		}
 
 		.footer {
-	
+
 			font-size: 15px;
 		
 		}
-	
+
 	}
-	
+
 	@media (max-width: 444px) {
-	
+
 		ul {
 
 			padding-left: 0;
@@ -184,15 +192,15 @@ body {
 		}
 
 		.footer {
-	
+
 			font-size: 14px;
 		
 		}
-	
+
 		/* #about {
-	
+
 			padding: 10px;
-	
+
 		} */
-	
+
 	}
