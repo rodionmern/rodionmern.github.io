@@ -1,8 +1,8 @@
-/* fonts zone, — connect roboto: normal&mono, ubuntu, montserrat */
+/* fonts zone, — connect ubuntu default&mono, montserrat */
 
 	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
-	@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-	@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 /* body zone, — set height, width, margin */
 
@@ -19,7 +19,7 @@
 
 		display: flex;
 		justify-content: center;
-		align-items: center;
+		align-items: start;
 
 		background-color: #222222;
 		color: #fff;
@@ -76,7 +76,6 @@
 			border-radius: 15px;
 
 		}
-
 
 			.about {
 
@@ -145,6 +144,12 @@
 			font-family: 'Ubuntu', sans-serif;
 
 		}
+
+			a {
+
+				text-decoration: none;
+
+			}
 
 		.wrap {
 
