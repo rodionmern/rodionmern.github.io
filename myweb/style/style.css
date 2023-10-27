@@ -53,6 +53,23 @@
 
 			}
 
+				.thetitle {
+
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+				}
+
+				.icon {
+
+					height: 32px;
+					width: 32px;
+
+					padding-right: 5px;
+
+				}
+
 			a {
 
 				color: #fff;
