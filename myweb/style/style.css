@@ -61,12 +61,18 @@
 
 				}
 
+				.titttle {
+
+					padding-left: 2.5px;
+
+				}
+
 				.icon {
 
 					height: 32px;
 					width: 32px;
 
-					padding-right: 5px;
+					padding-right: 2.5px;
 
 				}
 
