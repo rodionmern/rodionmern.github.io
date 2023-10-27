@@ -162,7 +162,7 @@
 
 		li {
 
-			font-size: 12px;
+			font-size: 13px;
 
 		}
 
@@ -176,6 +176,12 @@
 
 	@media (max-width: 444px) {
 
+		.about {
+
+			font-size: 14px;
+
+		}
+
 		ul {
 
 			padding-left: 0;
@@ -185,7 +191,7 @@
 
 		li {
 
-			font-size: 10px;
+			font-size: 12px;
 
 		}
 
