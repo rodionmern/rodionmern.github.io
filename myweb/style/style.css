@@ -42,7 +42,10 @@
 			justify-content: center;
 			align-items: center;
 
-			background-color: #141415;
+			background: rgb(255,139,0);
+			background: linear-gradient(137deg, rgba(255,139,0,1) 0%, rgba(121,32,9,1) 35%, rgba(20,20,22,1) 100%); 
+
+			/* background-color: #141415; */
 			border-radius: 10px;
 
 		}
@@ -93,7 +96,10 @@
 
 			height: auto;
 
-			background-color: #141415;
+			background: rgb(255,139,0);
+			background: linear-gradient(137deg, rgba(255,139,0,1) 0%, rgba(121,32,9,1) 35%, rgba(20,20,22,1) 100%); 
+
+			/* background-color: #141415; */
 			border-radius: 15px;
 
 		}
@@ -107,7 +113,31 @@
 
 			}
 
+			.theeventname {
+
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				width: auto;
+				height: 50px;
+
+				font-size: 16px;
+
+				border-radius: 10px;
+
+				background: #792009;
+
+				color: #fff;
+				
+				margin: 10px;
+				
+			}
+
 				.text-about {
+
+					display: flex;
+					flex-direction: row;
 
 					font-size: auto;
 
@@ -156,7 +186,10 @@
 			justify-content: center;
 			align-items: center;
 
-			background-color: #141415;
+			background: rgb(255,139,0);
+			background: linear-gradient(137deg, rgba(255,139,0,1) 0%, rgba(121,32,9,1) 35%, rgba(20,20,22,1) 100%); 
+
+			/* background-color: #141415; */
 			border-radius: 10px;
 
 		}
