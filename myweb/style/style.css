@@ -1,266 +1,143 @@
 /* fonts zone, — connect ubuntu default&mono, montserrat */
-
 	@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
-
 /* body zone, — set height, width, margin */
-
 	* {
-
 		margin: 0%;
-
 		font-family: 'Tenor Sans', sans-serif;
-
 	}
-
-	body {
-
-		height: 100vh;
-		width: 100vw;
-
-		display: flex;
-		justify-content: center;
-		align-items: start;
-
-		background-color: #222222;
-		color: #fff;
-
-	}
-
+		body {
+			height: 100vh;
+			width: 100vw;
+			display: flex;
+			justify-content: center;
+			align-items: start;
+			background-color: #222222;
+			color: #fff;
+		}
 /* blocks zone, — header, main, footer and other */
-
 	.container {
-
 		width: 80vw;
-
 	}
-
 		.header {
-
 			height: 75px;
-
 			display: flex;
 			justify-content: center;
 			align-items: center;
-
 			background: rgb(255,139,0);
 			background: linear-gradient(137deg, rgba(255,139,0,1) 0%, rgba(121,32,9,1) 35%, rgba(20,20,22,1) 100%); 
-
 			/* background-color: #141415; */
 			border-radius: 10px;
-
 		}
-
-			.title {
-
-				font-size: 32px;
-
+		.title {
+			font-size: 32px;
+		}
+			.thetitle {
+				display: flex;
+				justify-content: center;
+				align-items: center;
 			}
-
-				.thetitle {
-
-					display: flex;
-					justify-content: center;
-					align-items: center;
-
-				}
-
-				.titttle {
-
-					padding-left: 2.5px;
-
-				}
-
 				.icon {
-
 					height: 32px;
 					width: 32px;
-
 					padding-right: 2.5px;
-
 				}
-
-			a {
-
-				color: #fff;
-
-			}
-
+		a {
+			color: #fff;
+		}
 		.main {
-
 			display: flex;
 			justify-content: center;
 			align-items: left;
 			text-align: left;
-
 			flex-direction: column;
-
 			height: auto;
-
-			background: rgb(255,139,0);
-			background: linear-gradient(137deg, rgba(255,139,0,1) 0%, rgba(121,32,9,1) 35%, rgba(20,20,22,1) 100%); 
-
-			/* background-color: #141415; */
+			background-color: #141415;
 			border-radius: 15px;
-
 		}
-
 			.about {
-
 				margin-top: 15px;
 				margin-left: 15px;
 				margin-right: 15px;
 				margin-bottom: 10px;
-
 			}
-
 			.theeventname {
-
 				display: flex;
 				justify-content: center;
 				align-items: center;
-
 				width: auto;
 				height: 50px;
-
 				font-size: 16px;
-
 				border-radius: 10px;
-
 				background: #792009;
-
 				color: #fff;
-				
 				margin: 10px;
-				
 			}
-
 				.text-about {
-
 					display: flex;
 					flex-direction: row;
-
 					font-size: auto;
-
 				}
-
 			.tables {
-
 				display: flex;
 				flex-direction: row;
-
 			}
-
 				.table {
-
 					margin-top: 10px;
 					margin-left: 15px;
 					margin-right: 15px;
 					margin-bottom: 15px;
-
 				}
-
 					.tables__title {
-
 						font-size: auto;
-
 					}
-
 				ul {
-
 					list-style-type: none;
 					padding: 5px;
-
 				}
-
 					li {
-
 						font-size: 15px;
-
 					}
-
 		.footer {
-
 			height: 50px;
-
 			display: flex;
 			justify-content: center;
 			align-items: center;
-
-			background: rgb(255,139,0);
-			background: linear-gradient(137deg, rgba(255,139,0,1) 0%, rgba(121,32,9,1) 35%, rgba(20,20,22,1) 100%); 
-
-			/* background-color: #141415; */
+			background-color: #141415;
 			border-radius: 10px;
-
 		}
-
 			a {
-
 				text-decoration: none;
-
 			}
-
 		.wrap {
-
 			height: 15px;
-
 		}
-
 /* media zone, — mobile, tablet */
-
 	@media screen and (max-width: 800px) {
-
 		ul {
-
 			padding-left: 14px;
-
 		}
-
 		li {
-
 			font-size: 13px;
-
 		}
-
 		.footer {
-
 			font-size: 15px;
-		
 		}
-
 	}
-
 	@media (max-width: 444px) {
-
 		.about {
-
 			font-size: 14px;
-
 		}
-
 		ul {
-
 			padding-left: 0;
 			list-style-type: none;
-
 		}
-
 		li {
-
 			font-size: 12px;
-
 		}
-
 		.footer {
-
 			font-size: 14px;
-		
 		}
-
 		/* #about {
-
 			padding: 10px;
-
 		} */
-
 	}
