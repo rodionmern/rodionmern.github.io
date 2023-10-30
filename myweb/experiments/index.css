@@ -7,9 +7,11 @@
 
   font-family: 'Tenor Sans', sans-serif;
 
+  color: #fff;
+
 }
 
-body {
+body,html {
 
 	background-image: url(images/background.jpeg);
   background-repeat: no-repeat;
@@ -17,11 +19,13 @@ body {
   background-attachment: fixed;
   background-size: cover;
 
+  scroll-behavior: smooth;
+
 }
 
 .header {
 
-  height: 50px;
+  height: 5dvh;
 
   display: flex;
   justify-content: start;
@@ -33,7 +37,10 @@ body {
 
 a {
 
-  color: #fff;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
   text-decoration: none;
 
   padding-left: 10px;
@@ -44,83 +51,101 @@ a {
 
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
 
   flex-direction: column;
 
   background-color: #444443;
 
-  height: 500px;
-
-  padding-left: 15px;
+  height: 95dvh;
 
 }
 
   .about {
 
-    width: 80vw;
+  }
+
+  .about__text {
+
+    width: 90vw;
+    color: white;
+    font-size: 24px;
+
+    color: white;
+    animation: printed-text 1s steps(100),
+        flashin-border .75s step-start infinite;
 
   }
 
-  .text-about {
-    
-    color: #fff;
+  .link {
 
-  }
-  
-  .info {
+    font-size: 18px;
 
-    display: flex;
-    flex-direction: row;
-
-    margin: 15px 15px 15px 0px;
+    margin: 15px;
 
   }
 
-  .devices {
+  @keyframes flashin-border {
+    0% {
+        border-color: rgb(255, 255, 255);
+    }
 
-    display: flex;
-    flex-direction: row;
+    50% {
+        border-color: transparent;
+    }
 
-    color: #fff;
-
+    100% {
+        border-color: rgb(255, 255, 255);
+    }
   }
 
-  .skills {
-
-    display: flex;
-    flex-direction: row;
-
-    color: #fff;
-
-    margin-left: 15px;
-
-  }
-
-  li {
-
-    list-style-type: none;
-
-    padding-left: 10px;
-
+  @keyframes printed-text {
+      from {
+          width: 0%;
+      }
   }
 
 .wrap {
 
-  height: 70vh;
+  height: 100vh;
 
 }
 
 .footer {
 
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
 
-  height: 50px;
+  height: 75px;
 
-  color: #fff;
+}
 
-  background-color: #222221;
+  .footer__container {
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 50px;
+
+    background-color: #222221;
+
+    margin: 15px;
+    border-radius: 15px;
+
+  }
+
+@media (max-width: 444px) {
+  a {
+
+    font-size: 18px;
+
+  }
+  .about__text {
+
+    font-size: 18px;
+
+  }
 }
