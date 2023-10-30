@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+* {
+
+	margin: 0%;
+	padding: 0%;
+
+  font-family: 'Tenor Sans', sans-serif;
+
+}
+
+body {
+
+	background-image: url(images/background.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.header {
+
+  height: 50px;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  background-color: #222221;
+
+}
+
+a {
+
+  color: #fff;
+  text-decoration: none;
+
+  padding-left: 10px;
+
+}
+
+.main {
+
+  display: flex;
+  justify-content: center;
+  align-items: start;
+
+  flex-direction: column;
+
+  background-color: #444443;
+
+  height: 500px;
+
+  padding-left: 15px;
+
+}
+
+  .about {
+
+    width: 80vw;
+
+  }
+
+  .text-about {
+    
+    color: #fff;
+
+  }
+  
+  .info {
+
+    display: flex;
+    flex-direction: row;
+
+    margin: 15px 15px 15px 0px;
+
+  }
+
+  .devices {
+
+    display: flex;
+    flex-direction: row;
+
+    color: #fff;
+
+  }
+
+  .skills {
+
+    display: flex;
+    flex-direction: row;
+
+    color: #fff;
+
+    margin-left: 15px;
+
+  }
+
+  li {
+
+    list-style-type: none;
+
+    padding-left: 10px;
+
+  }
+
+.wrap {
+
+  height: 70vh;
+
+}
+
+.footer {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 50px;
+
+  color: #fff;
+
+  background-color: #222221;
+
+}
