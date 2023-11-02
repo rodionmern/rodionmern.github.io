@@ -58,12 +58,11 @@
 				margin: 0px 0px 15px 0px;
 			}
 				.text-about {
-					display: flex;
-					flex-direction: row;
 					font-size: auto;
 				}
 			.tables {
 				display: flex;
+				justify-content: end;
 				flex-direction: row;
 			}
 				.table {
