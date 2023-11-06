@@ -89,6 +89,12 @@
 			a {
 				text-decoration: none;
 			}
+			.copyleft {
+				text-decoration: none;
+			}
+				.copyleft:hover {
+					text-decoration: underline;
+				}
 		.wrap {
 			height: 15px;
 		}

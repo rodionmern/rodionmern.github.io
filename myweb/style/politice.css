@@ -139,6 +139,12 @@
 			font-size: 15px;
 		
 		}
+			.copyleft {
+				text-decoration: none;
+			}
+				.copyleft:hover {
+					text-decoration: underline;
+				}
 
 	}
 
