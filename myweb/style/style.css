@@ -86,14 +86,17 @@
 			background-color: #141415;
 			border-radius: 10px;
 		}
-			a {
-				text-decoration: none;
-			}
 			.copyleft {
+				color: #fff;
+
 				text-decoration: none;
+				transition: color 1s;
 			}
 				.copyleft:hover {
+					color: #b0e2ff;
+					
 					text-decoration: underline;
+					transition: color 1s;
 				}
 		.wrap {
 			height: 15px;
