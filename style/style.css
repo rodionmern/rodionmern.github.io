@@ -30,13 +30,21 @@
 				font-size: 32px;
 			}
 			.title__a {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				width: 200px;
+
 				font-size: 32px;
 				color: #fff;
 				transition: all 1s;
+				border-radius: 10px;
 			}
 			.title__a:hover {
-				font-size: 30px;
-				color: #09791c;
+				font-size: 34px;
+				background-color: #09791c;
+				text-decoration: none;
 				transition: all 1s;
 			}
 				a {
