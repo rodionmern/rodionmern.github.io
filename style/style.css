@@ -114,13 +114,14 @@
 				.copyleft {
 					display: flex;
 					justify-content: end;
-					width: 150px;
 					color: #fff;
 					text-decoration: underline;
 					transition: all 1s;
-					padding-right: 5px;
+					padding-right: 7px;
+					padding-left: 7px;
 				}
 					.copyleft:hover {
+						width: 150px;
 						display: flex;
 						justify-content: center;
 						align-items: center	;
