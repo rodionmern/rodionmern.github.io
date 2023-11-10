@@ -79,7 +79,18 @@
 						background: #09791c;
 						color: #fff;
 						margin: 0px 0px 15px 0px;
+						transition: all 0.5s;
 					}
+						.theeventname:hover {
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							width: auto;
+							height: 50px;
+							font-size: 14px;
+							border-radius: 2.5px;
+							transition: all 0.5s;
+						}
 				.tables {
 					display: flex;
 					justify-content: end;
