@@ -44,6 +44,7 @@
 				}
 					.title__a:hover {
 						font-size: 28px;
+						color: #074211;
 						background-color: #09791c;
 						text-decoration:none;
 						transition: all 1s;
@@ -82,6 +83,7 @@
 						transition: all 0.5s;
 					}
 						.theeventname:hover {
+							color: #074211;
 							display: flex;
 							justify-content: center;
 							align-items: center;
@@ -136,7 +138,7 @@
 						display: flex;
 						justify-content: center;
 						align-items: center	;
-						color: #fff;
+						color: #074211;
 						background-color: #09791c;
 						border-radius: 10px;
 						text-decoration: none;
