@@ -20,8 +20,9 @@
 	}
 		.header {
 			height: 75px;
+			width: 80vw;
 			display: flex;
-			justify-content: center;
+			justify-content: right;
 			align-items: center;
 			background-color: #141415;
 			border-radius: 10px;
@@ -31,9 +32,7 @@
 			}
 				.title__a {
 					display: flex;
-					justify-content: center;
-					align-items: center;
-
+					
 					width: 250px;
 					height: 50px;
 
@@ -49,6 +48,9 @@
 						text-decoration:none;
 						transition: all 1s;
 					}
+			.open-source_title {
+				margin: 15px;	
+			}	
 			a {
 				color: #fff;
 				text-decoration: none;
@@ -161,6 +163,13 @@
 		}
 	}
 	@media (max-width: 444px) {
+		.header {
+			display: flex;
+			justify-content: center;
+		}
+		.open-source_title {
+			margin: 0px;
+		}
 		.about {
 			font-size: 14px;
 		}
