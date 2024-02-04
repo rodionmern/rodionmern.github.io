@@ -1,0 +1,38 @@
+@media (max-width: 1250px) { /* Tablets */
+	.main {
+		height: 200px;
+	}
+	.about {
+		width: 800px;
+	}
+	.links {
+		width: 700px;
+	}
+}
+
+@media screen and (max-width: 500px) { /* Smartphones */
+	h1 {
+		font-size: 26px;
+	}
+	p {
+		font-size: 18px;
+	}
+	li {
+		font-size: 18px;
+		list-style: none;
+	}
+	.main {
+		min-height:400px;
+	}
+	.about {
+		width: 250px;
+	}
+	.links {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+		height: 115px;
+	}
+}

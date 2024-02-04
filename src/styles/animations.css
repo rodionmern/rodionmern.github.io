@@ -1,0 +1,10 @@
+a:hover {
+	text-decoration:none;
+	transition:all 1s;
+}
+
+hr:hover {
+	padding: 15px;
+	height: 5px;
+	transition:all 1s;
+}
