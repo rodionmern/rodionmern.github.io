@@ -2,84 +2,61 @@
 	margin:0px;
 	padding:0px;
 }
-
 h1 {
 	color:#FFF;
 }
-
 h2 {
 	color:#FFc;
 }
-
 h3 {
 	color:#FFF;
 }
-
 p {
 	color:#FFF;
 }
-
 li {
 	color:#CCC;
 }
-
 a {
 	color:#FFc;
 	transition:all 1s;
 }
-
 hr {
 	background:#333;
-	
 	border:none;
-	
 	height:3px;
-
 	transition:all 1s;
 }
-
 body {
 	background-color:#111;
-	
 	font-family:'Ubuntu',sans-serif;
 }
-
 nav {
 	display:flex;
 	justify-content:center;
 	align-items:center;
-
 	height:50px;
 }
-
 .main {
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	flex-direction:column;
-
 	height:150px;
 }
-
 .about {
-
 }
-
 .links {
 	display:flex;
 	justify-content:space-between;
-
 	margin-top:15px;
-
 	width:800px;
 }
-
 footer {
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	text-align: left;
 	flex-direction:column;
-
 	height:50px;
 }

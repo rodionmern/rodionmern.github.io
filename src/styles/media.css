@@ -1,4 +1,4 @@
-@media (max-width: 1250px) { /* Tablets */
+@media (max-width: 1400px) { /* Tablets */
 	.main {
 		height: 200px;
 	}
@@ -9,8 +9,7 @@
 		width: 700px;
 	}
 }
-
-@media screen and (max-width: 500px) { /* Smartphones */
+@media screen and (max-width: 650px) { /* Smartphones */
 	h1 {
 		font-size: 26px;
 	}
