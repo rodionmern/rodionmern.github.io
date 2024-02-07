@@ -1,27 +1,23 @@
 * {
 	margin:0px;
 	padding:0px;
-}
-h1 {
+} h1, h3 {
 	color:#FFF;
-}
-h2 {
-	color:#FFc;
-}
-h3 {
-	color:#FFF;
-}
-p {
-	color:#FFF;
-}
-li {
-	color:#CCC;
-}
-a {
+	transition:all 1s;
+} h2 {
 	color:#FFc;
 	transition:all 1s;
-}
-hr {
+} p {
+	color:#FFF;
+	transition:all 1s;
+} li {
+	color:#CCC;
+	list-style:none;
+	transition:all 1s;
+} a {
+	color:#FFc;
+	transition:all 1s;
+} hr {
 	background:#333;
 	border:none;
 	height:3px;
@@ -43,8 +39,6 @@ nav {
 	align-items:center;
 	flex-direction:column;
 	height:150px;
-}
-.about {
 }
 .links {
 	display:flex;

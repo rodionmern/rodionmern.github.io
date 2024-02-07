@@ -1,4 +1,12 @@
 @media (max-width: 1400px) { /* Tablets */
+	h1 {
+		font-size: 25px;
+		transition: all 1s;
+	}
+	p,li{
+		font-size: 17px;
+		transition: all 1s;
+	}
 	.main {
 		height: 200px;
 	}
@@ -9,16 +17,14 @@
 		width: 700px;
 	}
 }
-@media screen and (max-width: 650px) { /* Smartphones */
+@media screen and (max-width: 1080px) { /* Smartphones */
 	h1 {
 		font-size: 26px;
+		transition: all 1s;
 	}
-	p {
+	p,li {
 		font-size: 18px;
-	}
-	li {
-		font-size: 18px;
-		list-style: none;
+		transition: all 1s;
 	}
 	.main {
 		min-height:400px;

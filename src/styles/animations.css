@@ -1,3 +1,6 @@
+*::selection {
+	background: #555;
+}
 a:hover {
 	text-decoration:none;
 	transition:all 1s;
@@ -5,5 +8,12 @@ a:hover {
 hr:hover {
 	padding: 15px;
 	height: 5px;
+	transition:all 1s;
+}
+h2:hover {
+	text-align:right;
+	color: #111;
+	background-color: #FFc;
+	border-radius:5px;
 	transition:all 1s;
 }
